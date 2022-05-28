@@ -1,0 +1,16 @@
+int search(int A[], int l, int h, int key){\
+    int i,flag=0;
+        for(i=l;i<h;i++)
+        {
+            if(A[i]==key)
+              {
+                  flag=1;
+                  break;
+              }
+        }
+        if(flag==0)
+         return -1;
+        else 
+           return i;
+    //complete the function here
+    }
